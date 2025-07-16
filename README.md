@@ -1,7 +1,6 @@
 # EV_Charging_Prediction
-AICTE Intern Cycle
 <h1 align="center">Hi 👋, I'm Raghav</h1>
-<h3 align="center">EV_Charging_Prediction_EDA</h3>
+<h3 align="center">EV_Charging_Prediction using EDA</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
