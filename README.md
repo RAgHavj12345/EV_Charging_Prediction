@@ -65,7 +65,7 @@ This repository focuses on **EDA of Week 1 & 2** data to extract meaningful insi
   <a href="https://www.linkedin.com/in/your-profile" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://github.com/your-username" target="_blank">
+  <a href="https://github.com/RAgHavj12345" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
   <a href="mailto:your.email@example.com">
