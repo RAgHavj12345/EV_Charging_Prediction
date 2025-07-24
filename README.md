@@ -1,27 +1,29 @@
 # 🔋 EV Charging Prediction
 
 <h1 align="center">Hi 👋, I'm Raghav</h1>
-<h3 align="center">🔍 Exploring EV Charging Patterns using EDA - Week 1 & Week 2</h3>
+<h3 align="center">🔍 EV Charging Prediction using Exploratory Data Analysis (EDA) - Week 1 & 2</h3>
 
 ---
 
-## 🤝 Connect with me:
+## 📌 About the Project
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/your-profile" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://github.com/your-username" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-</p>
+The **EV Charging Prediction** project is focused on understanding and modeling electric vehicle (EV) charging behavior using real-world data. As the adoption of EVs grows rapidly, it's essential to optimize charging infrastructure, forecast energy demand, and reduce grid stress. This project uses data-driven insights and machine learning foundations to tackle those challenges.
+
+The current phase involves **Exploratory Data Analysis (EDA)** using Week 1 and Week 2 charging data.
 
 ---
 
-## 🛠️ Languages and Tools:
+## 📊 Objectives
+
+- 🔍 Perform in-depth **EDA** to understand user charging patterns
+- 📈 Identify trends, peak hours, and energy consumption behaviors
+- 🧹 Handle missing or inconsistent data and prepare it for modeling
+- 📊 Visualize insights using **Seaborn** and **Matplotlib**
+- ⚙️ Lay the groundwork for machine learning-based **demand prediction**
+
+---
+
+## 🛠️ Tools & Technologies
 
 <p align="left">
   <a href="https://www.python.org" target="_blank" rel="noreferrer">
@@ -40,13 +42,5 @@
 
 ---
 
-## 📊 Project Overview
-
-This project involves **exploratory data analysis (EDA)** on EV charging data across two weeks. The main goals are to:
-
-- Understand EV charging behavior
-- Discover patterns and trends
-- Prepare the dataset for predictive modeling
-
-Stay tuned for model building and deployment in the upcoming weeks!
+## 📁 Project Structure
 
