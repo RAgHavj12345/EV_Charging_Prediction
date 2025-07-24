@@ -44,3 +44,37 @@ The current phase involves **Exploratory Data Analysis (EDA)** using Week 1 and 
 
 ## 📁 Project Structure
 
+
+---
+
+## 🚀 Future Roadmap
+
+- ✅ Complete EDA for Week 1 & 2
+- 🧠 Feature engineering and preprocessing
+- 🤖 Build predictive models (e.g., Linear Regression, Random Forest)
+- 📊 Evaluate model performance
+- ☁️ Deploy model as an API or Streamlit dashboard
+- 🌍 Analyze environmental and infrastructure impacts
+
+---
+
+## 🤝 Connect with me
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/your-profile" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/your-username" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="mailto:your.email@example.com">
+    <img src="https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
+
+---
+
+⭐️ *If you like this project, consider giving it a star to support the work!*  
+📬 *Feel free to open issues or reach out if you have ideas or suggestions!*
+
+
