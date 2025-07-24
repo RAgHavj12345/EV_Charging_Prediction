@@ -48,28 +48,6 @@ This repository focuses on **EDA of Week 1 & 2** data to extract meaningful insi
 
 ---
 
-## 📁 Project Structure
-
-```bash
-EV_Charging_Prediction/
-├── data/
-│   ├── week1_data.csv
-│   └── week2_data.csv
-├── notebooks/
-│   ├── 01_EDA_Week1.ipynb
-│   └── 02_EDA_Week2.ipynb
-├── outputs/
-│   ├── figures/
-│   └── cleaned_data/
-├── models/                # (To be added in next phase)
-├── README.md
-├── requirements.txt
-└── .gitignore
-
-
-
----
-
 ## 🚀 Future Roadmap
 
 - ✅ Complete EDA for Week 1 & 2
@@ -113,6 +91,16 @@ Let me know if you'd like:
 - A **Dockerfile** for portability
 
 I can help you set those up too.
+
+
+---
+
+### ✅ Final Notes:
+- Replace `your-username`, `your-profile`, and `your.email@example.com` with your actual info.
+- Add any images or visualizations to the `outputs/figures/` folder and optionally link them in the README under an "Examples" or "Gallery" section.
+
+Let me know if you want help creating a `requirements.txt`, `LICENSE`, or `streamlit_app.py` next!
+
 
 
 
