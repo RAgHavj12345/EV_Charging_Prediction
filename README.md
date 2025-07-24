@@ -79,27 +79,7 @@ This repository focuses on **EDA of Week 1 & 2** data to extract meaningful insi
 📬 *Feel free to open issues or reach out if you have ideas or suggestions!*
 
 
----
 
-### ✅ What’s Next?
-
-Let me know if you'd like:
-
-- A **live preview with Streamlit or Gradio**
-- **Interactive graphs** with Plotly
-- **GitHub Actions CI/CD** for deployment
-- A **Dockerfile** for portability
-
-I can help you set those up too.
-
-
----
-
-### ✅ Final Notes:
-- Replace `your-username`, `your-profile`, and `your.email@example.com` with your actual info.
-- Add any images or visualizations to the `outputs/figures/` folder and optionally link them in the README under an "Examples" or "Gallery" section.
-
-Let me know if you want help creating a `requirements.txt`, `LICENSE`, or `streamlit_app.py` next!
 
 
 
