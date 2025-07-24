@@ -1,48 +1,71 @@
 # 🔋 EV Charging Prediction
 
 <h1 align="center">Hi 👋, I'm Raghav</h1>
-<h3 align="center">🔍 EV Charging Prediction using Exploratory Data Analysis (EDA) - Week 1 & 2</h3>
+<h3 align="center">🔍 Analyzing & Predicting Electric Vehicle Charging Behavior using EDA (Week 1 & 2)</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/status-in--progress-yellow?style=flat-square&logo=github" alt="Project Status"/>
+  <img src="https://img.shields.io/badge/Made%20with-Python-blue?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/github/stars/your-username/ev-charging-prediction?style=social" alt="GitHub Stars"/>
+</p>
 
 ---
 
 ## 📌 About the Project
 
-The **EV Charging Prediction** project is focused on understanding and modeling electric vehicle (EV) charging behavior using real-world data. As the adoption of EVs grows rapidly, it's essential to optimize charging infrastructure, forecast energy demand, and reduce grid stress. This project uses data-driven insights and machine learning foundations to tackle those challenges.
+The **EV Charging Prediction** project leverages real-world electric vehicle (EV) charging station data to uncover usage patterns, understand energy demand, and build predictive models for smart grid optimization.
 
-The current phase involves **Exploratory Data Analysis (EDA)** using Week 1 and Week 2 charging data.
+As EVs become mainstream, intelligent energy forecasting is key for:
+
+- ⚡ Minimizing grid load
+- 🔌 Reducing downtime at charging stations
+- 🌱 Supporting sustainable energy planning
+
+This repository focuses on **EDA of Week 1 & 2** data to extract meaningful insights and lay the foundation for future machine learning models.
 
 ---
 
-## 📊 Objectives
+## 🎯 Key Objectives
 
-- 🔍 Perform in-depth **EDA** to understand user charging patterns
-- 📈 Identify trends, peak hours, and energy consumption behaviors
-- 🧹 Handle missing or inconsistent data and prepare it for modeling
-- 📊 Visualize insights using **Seaborn** and **Matplotlib**
-- ⚙️ Lay the groundwork for machine learning-based **demand prediction**
+- 🔍 Perform detailed **Exploratory Data Analysis (EDA)**
+- 📊 Identify trends in usage across days, hours, and stations
+- 🧹 Clean and preprocess raw EV charging data
+- 🌐 Understand spatial/temporal energy demand
+- 🛠️ Prepare feature sets for model training
+- 🔮 Set the stage for demand prediction using ML
 
 ---
 
 ## 🛠️ Tools & Technologies
 
 <p align="left">
-  <a href="https://www.python.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
-  </a>
-  <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="Pandas" width="40" height="40"/>
-  </a>
-  <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" width="40" height="40"/>
-  </a>
-  <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer">
-    <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="Seaborn" width="40" height="40"/>
-  </a>
+  <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/></a>
+  <a href="https://pandas.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/></a>
+  <a href="https://seaborn.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/Seaborn-Blue?style=for-the-badge&logoColor=white"/></a>
+  <a href="https://scikit-learn.org/" target="_blank"><img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/></a>
+  <a href="https://matplotlib.org/" target="_blank"><img src="https://img.shields.io/badge/Matplotlib-Blue?style=for-the-badge&logo=matplotlib&logoColor=white"/></a>
 </p>
 
 ---
 
 ## 📁 Project Structure
+
+```bash
+EV_Charging_Prediction/
+├── data/
+│   ├── week1_data.csv
+│   └── week2_data.csv
+├── notebooks/
+│   ├── 01_EDA_Week1.ipynb
+│   └── 02_EDA_Week2.ipynb
+├── outputs/
+│   ├── figures/
+│   └── cleaned_data/
+├── models/                # (To be added in next phase)
+├── README.md
+├── requirements.txt
+└── .gitignore
+
 
 
 ---
