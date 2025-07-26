@@ -1,38 +1,45 @@
-# 🔋 EV Charging Prediction
+# 📈 EV Adoption Forecasting
 
 <h1 align="center">Hi 👋, I'm Raghav</h1>
-<h3 align="center">🔍 Analyzing & Predicting Electric Vehicle Charging Behavior using EDA (Week 1 & 2)</h3>
+<h3 align="center">Forecasting Electric Vehicle Growth in Washington State using Time Series Analysis</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-in--progress-yellow?style=flat-square&logo=github" alt="Project Status"/>
   <img src="https://img.shields.io/badge/Made%20with-Python-blue?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/github/stars/your-username/ev-charging-prediction?style=social" alt="GitHub Stars"/>
+  <img src="https://img.shields.io/github/stars/raghavj12345/EV-Adoption-Forecasting?style=social" alt="GitHub Stars"/>
 </p>
 
 ---
 
 ## 📌 About the Project
 
-The **EV Charging Prediction** project leverages real-world electric vehicle (EV) charging station data to uncover usage patterns, understand energy demand, and build predictive models for smart grid optimization.
+As electric vehicle (EV) adoption surges, urban planners need to anticipate infrastructure needs—especially charging stations. Inadequate planning can lead to bottlenecks, impacting user satisfaction and hindering sustainability goals.
 
-As EVs become mainstream, intelligent energy forecasting is key for:
-
-- ⚡ Minimizing grid load
-- 🔌 Reducing downtime at charging stations
-- 🌱 Supporting sustainable energy planning
-
-This repository focuses on **EDA of Week 1 & 2** data to extract meaningful insights and lay the foundation for future machine learning models.
+This project aims to address this challenge by building a **regression model that forecasts future EV adoption** based on historical trends in vehicle growth, types of vehicles, and regional data from Washington State.
 
 ---
 
 ## 🎯 Key Objectives
 
-- 🔍 Perform detailed **Exploratory Data Analysis (EDA)**
-- 📊 Identify trends in usage across days, hours, and stations
-- 🧹 Clean and preprocess raw EV charging data
-- 🌐 Understand spatial/temporal energy demand
-- 🛠️ Prepare feature sets for model training
-- 🔮 Set the stage for demand prediction using ML
+- 🔍 **Analyze** historical trends in EV registration data from 2017 to 2024.
+- 🧹 **Clean and preprocess** the dataset for time series analysis.
+- 🤖 **Build and train** a robust regression model to forecast the number of electric vehicles in upcoming years.
+- 📊 **Visualize** the forecasted adoption rates to provide clear, actionable insights for infrastructure planning.
+- 🛠️ **Evaluate** the model's performance to ensure accurate and reliable predictions.
+
+---
+
+## 📊 Dataset Overview
+
+This project uses a dataset from the **Washington State Department of Licensing (DOL)**, which shows the number of vehicles registered each month.
+
+- **Date Range:** January 2017 - February 2024
+- **Key Features:**
+  - `County`: Geographic region of the vehicle's owner.
+  - `Vehicle Primary Use`: Passenger (83%) or Truck (17%).
+  - `Battery Electric Vehicles (BEVs)`: Count of fully electric vehicles.
+  - `Plug-In Hybrid Electric Vehicles (PHEVs)`: Count of plug-in hybrids.
+  - `EV Total`: The sum of BEVs and PHEVs.
 
 ---
 
@@ -41,44 +48,35 @@ This repository focuses on **EDA of Week 1 & 2** data to extract meaningful insi
 <p align="left">
   <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/></a>
   <a href="https://pandas.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/></a>
-  <a href="https://seaborn.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/Seaborn-Blue?style=for-the-badge&logoColor=white"/></a>
+  <a href="https://numpy.org/" target="_blank"><img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/></a>
+  <a href="https://seaborn.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=seaborn&logoColor=white"/></a>
+  <a href="https://matplotlib.org/" target="_blank"><img src="https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=matplotlib&logoColor=white"/></a>
   <a href="https://scikit-learn.org/" target="_blank"><img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/></a>
-  <a href="https://matplotlib.org/" target="_blank"><img src="https://img.shields.io/badge/Matplotlib-Blue?style=for-the-badge&logo=matplotlib&logoColor=white"/></a>
 </p>
 
 ---
 
 ## 🚀 Future Roadmap
 
-- ✅ Complete EDA for Week 1 & 2
-- 🧠 Feature engineering and preprocessing
-- 🤖 Build predictive models (e.g., Linear Regression, Random Forest)
-- 📊 Evaluate model performance
-- ☁️ Deploy model as an API or Streamlit dashboard
-- 🌍 Analyze environmental and infrastructure impacts
+- ✅ **Exploratory Data Analysis (EDA):** Complete a deep dive into the historical data to identify seasonality and trends.
+- 🧠 **Feature Engineering:** Create time-based features (e.g., month, year, quarter) to improve model accuracy.
+- 🤖 **Model Development:** Train and evaluate multiple time series or regression models (e.g., ARIMA, Prophet, or Linear Regression).
+- 📈 **Visualize Forecasts:** Create clear plots showing the predicted EV growth against the historical data.
+- ☁️ **Deployment (Optional):** Deploy the final model as an interactive Streamlit dashboard or a simple API.
 
 ---
 
 ## 🤝 Connect with me
 
 <p align="left">
-  <a href="https://github.com/RAgHavj12345" target="_blank">
+  <a href="https://github.com/raghavj12345" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-  
-  <a href="" target="_blank">
+  <a href="https://www.linkedin.com/in/raghav-joshi-687a02373" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
 </p>
 
 ---
 
-⭐️ *If you like this project, consider giving it a star to support the work!*  
-📬 *Feel free to open issues or reach out if you have ideas or suggestions!*
-
-
-
-
-
-
-
+⭐️ *If you find this project interesting, please consider giving it a star to support my wor
