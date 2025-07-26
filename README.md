@@ -79,4 +79,4 @@ This project uses a dataset from the **Washington State Department of Licensing 
 
 ---
 
-⭐️ *If you find this project interesting, please consider giving it a star to support my wor
+⭐️ *If you find this project interesting, please consider giving it a star to support my work.
