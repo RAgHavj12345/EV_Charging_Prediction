@@ -39,9 +39,13 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-# Image
-st.image("ev-car-factory.jpg", use_container_width=True)
+# Create three columns; the middle one is wider
+col1, col2, col3 = st.columns([1, 2, 1])
 
+# Place the image in the middle column
+with col2:
+    st.image("ev-car-factory.jpg")
+    
 # Instruction line
 st.markdown("""
     <div style='text-align: left; font-size: 22px; padding-top: 10px; color: #FFFFFF;'>
@@ -76,6 +80,7 @@ cumulative_ev = list(np.cumsum(historical_ev))
 months_since_start = county_df['months_since_start'].max()
 latest_date = county_df['Date'].max()
 
+# Forecasting loop from the Streamlit App
 future_rows = []
 forecast_horizon = 36
 
@@ -100,10 +105,10 @@ for i in range(1, forecast_horizon + 1):
         'ev_total_pct_change_3': pct_change_3,
         'ev_growth_slope': ev_growth_slope
     }
-
+    # Predict the next value
     pred = model.predict(pd.DataFrame([new_row]))[0]
     future_rows.append({"Date": forecast_date, "Predicted EV Total": round(pred)})
-
+ # Update historical values for the next iteration
     historical_ev.append(pred)
     if len(historical_ev) > 6:
         historical_ev.pop(0)
@@ -128,7 +133,7 @@ combined = pd.concat([
 
 # === Plot Cumulative Graph ===
 st.subheader(f"📊 Cumulative EV Forecast for {county} County")
-fig, ax = plt.subplots(figsize=(12, 6))
+fig, ax = plt.subplots(figsize=(10, 5))
 for label, data in combined.groupby('Source'):
     ax.plot(data['Date'], data['Cumulative EV'], label=label, marker='o')
 ax.set_title(f"Cumulative EV Trend - {county} (3 Years Forecast)", fontsize=14, color='white')
@@ -223,7 +228,7 @@ if multi_counties:
 
     # Plot
     st.subheader("📈 Comparison of Cumulative EV Adoption Trends")
-    fig, ax = plt.subplots(figsize=(14, 7))
+    fig, ax = plt.subplots(figsize=(12, 6))
     for cty, group in comp_df.groupby('County'):
         ax.plot(group['Date'], group['Cumulative EV'], marker='o', label=cty)
     ax.set_title("EV Adoption Trends: Historical + 3-Year Forecast", fontsize=16, color='white')
