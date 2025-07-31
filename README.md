@@ -21,6 +21,7 @@ Here's a quick look at the application in action:
 <p align="center">
   <img src="https://github.com/RAgHavj12345/EV_Charging_Prediction/assets/136015560/5948348a-a43b-486a-ad85-9b2f664c9d5d" width="800" alt="App Screenshot"/>
 </p>
+![App Screenshot](https://github.com/RAgHavj12345/EV_Charging_Prediction/assets/136015560/5948348a-a43b-486a-ad85-9b2f664c9d5d)
 
 ---
 
