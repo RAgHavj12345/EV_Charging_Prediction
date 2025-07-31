@@ -1,4 +1,6 @@
-# 📈 EV Adoption Forecasting
+# 📈 EV Adoption Forecasting/EV Vehicle/Charging Demand Prediction
+<img width="1338" height="158" alt="image" src="https://github.com/user-attachments/assets/e5c22aae-3ca1-4b0a-8f75-f4b1b57d8228" />
+
 
 <h1 align="center">Hi 👋, I'm Raghav</h1>
 <h3 align="center">Forecasting Electric Vehicle Growth in Washington State using Time Series Analysis</h3>
