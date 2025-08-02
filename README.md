@@ -61,6 +61,7 @@ If you find this project interesting or useful, please consider giving it a ⭐�
   <a href="https://github.com/raghavj12345" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
+  
   <a href="https://www.linkedin.com/in/raghav-joshi-687a02373" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
